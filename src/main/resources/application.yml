@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver # here you need to give your service database nme from pcf like mysql
+    url: jdbc:mysql://localhost:3306/pcf   # driver name , user name and password , in that case you are using pcf mysql database
+    username: root
+    password: root123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
